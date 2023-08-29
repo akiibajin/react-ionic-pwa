@@ -10,7 +10,7 @@ import {
   setupIonicReact,
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
-import { home, images, menu, square, triangle, } from "ionicons/icons";
+import { home, images, menu, document, triangle, } from "ionicons/icons";
 import Case1 from "./pages/Case1";
 import Case2 from "./pages/Case2";
 import Case3 from "./pages/Case3";
@@ -62,19 +62,19 @@ const App: React.FC = () => (
           <IonTabBar slot="bottom" color={"dark"}>
             <IonTabButton tab="home" href="/home">
               <IonIcon aria-hidden="true" icon={home} />
-              <IonLabel>Home</IonLabel>
+              <IonLabel>Inicio</IonLabel>
             </IonTabButton>
             <IonTabButton tab="case-1" href="/case-1">
               <IonIcon aria-hidden="true" icon={menu} />
-              <IonLabel>Case 1</IonLabel>
+              <IonLabel>Caso 1</IonLabel>
             </IonTabButton>
             <IonTabButton tab="case-2" href="/case-2">
               <IonIcon aria-hidden="true" icon={images} />
-              <IonLabel>Case 2</IonLabel>
+              <IonLabel>Caso 2</IonLabel>
             </IonTabButton>
             <IonTabButton tab="case-3" href="/case-3">
-              <IonIcon aria-hidden="true" icon={square} />
-              <IonLabel>Case 3</IonLabel>
+              <IonIcon aria-hidden="true" icon={document} />
+              <IonLabel>Caso 3</IonLabel>
             </IonTabButton>
           </IonTabBar>
         </IonTabs>
